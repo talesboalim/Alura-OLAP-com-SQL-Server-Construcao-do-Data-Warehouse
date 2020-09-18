@@ -1,0 +1,193 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="9/17/2020 6:31:27 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="PC-TALES"
+  DTS:CreatorName="PC-TALES\Tales"
+  DTS:DTSID="{7E96E03F-0AFE-488F-B0FB-4CB67E9FB7B5}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="15.0.2000.128"
+  DTS:LocaleID="1046"
+  DTS:ObjectName="Package1"
+  DTS:PackageType="5"
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{269CB1CE-D458-42B0-8F4A-7BB7B2C2C84E}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:PackageParameters>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{5A51FD50-3F9D-43F5-ADD4-4B0146999663}"
+      DTS:ObjectName="Ano_Final">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">2015</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{09B045C1-E0A8-4CC2-A13F-69E537C9DDF7}"
+      DTS:ObjectName="Ano_Inicial">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">2013</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{1A2ABD61-9744-418A-BE7F-5C6541FFBE86}"
+      DTS:ObjectName="Mes_Final">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">12</DTS:Property>
+    </DTS:PackageParameter>
+    <DTS:PackageParameter
+      DTS:CreationName=""
+      DTS:DataType="8"
+      DTS:DTSID="{C76D88B0-1035-4C74-A525-10955415E17A}"
+      DTS:ObjectName="Mes_Inicial">
+      <DTS:Property
+        DTS:DataType="8"
+        DTS:Name="ParameterValue">1</DTS:Property>
+    </DTS:PackageParameter>
+  </DTS:PackageParameters>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Carga Dimensões"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Carga Dimensões"
+      DTS:DTSID="{FAC9FE32-76EC-46F5-B9AB-6713091C67F7}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Carga Dimensões"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>CargaDimensões.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Ano_Inicial</ParameterName>
+            <BindedVariableOrParameterName>$Package::Ano_Inicial</BindedVariableOrParameterName>
+          </ParameterAssignment>
+          <ParameterAssignment>
+            <ParameterName>Ano_Final</ParameterName>
+            <BindedVariableOrParameterName>$Package::Ano_Final</BindedVariableOrParameterName>
+          </ParameterAssignment>
+          <ParameterAssignment>
+            <ParameterName>Mes_Inicial</ParameterName>
+            <BindedVariableOrParameterName>$Package::Mes_Inicial</BindedVariableOrParameterName>
+          </ParameterAssignment>
+          <ParameterAssignment>
+            <ParameterName>Mes_Final</ParameterName>
+            <BindedVariableOrParameterName>$Package::Mes_Final</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\Carga Fatos"
+      DTS:CreationName="Microsoft.ExecutePackageTask"
+      DTS:Description="Carga Fatos"
+      DTS:DTSID="{C0B8E5F4-E912-417B-9AD2-557321791B07}"
+      DTS:ExecutableType="Microsoft.ExecutePackageTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Carga Fatos"
+      DTS:TaskContact="Microsoft Corporation; Microsoft SQL Server; Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <ExecutePackageTask>
+          <UseProjectReference>True</UseProjectReference>
+          <PackageName>CargaFatos.dtsx</PackageName>
+          <ParameterAssignment>
+            <ParameterName>Ano_Inicial</ParameterName>
+            <BindedVariableOrParameterName>$Package::Ano_Inicial</BindedVariableOrParameterName>
+          </ParameterAssignment>
+          <ParameterAssignment>
+            <ParameterName>Ano_Final</ParameterName>
+            <BindedVariableOrParameterName>$Package::Ano_Final</BindedVariableOrParameterName>
+          </ParameterAssignment>
+          <ParameterAssignment>
+            <ParameterName>Mes_Inicial</ParameterName>
+            <BindedVariableOrParameterName>$Package::Mes_Inicial</BindedVariableOrParameterName>
+          </ParameterAssignment>
+          <ParameterAssignment>
+            <ParameterName>Mes_Final</ParameterName>
+            <BindedVariableOrParameterName>$Package::Mes_Final</BindedVariableOrParameterName>
+          </ParameterAssignment>
+        </ExecutePackageTask>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{BF1A6758-321C-4FA5-A08F-0636347F0B29}"
+      DTS:From="Package\Carga Dimensões"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\Carga Fatos" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Carga Dimensões"
+          TopLeft="185.83332594898,58.9333338016934" />
+        <NodeLayout
+          Size="135.2,41.6"
+          Id="Package\Carga Fatos"
+          TopLeft="402.499984006088,94.4666674174203" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="347.43332594898,79.7333338016934">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="55.0666580571074,35.5333336157269"
+              Start="0,0"
+              End="47.5666580571074,35.5333336157269">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="23.5333290285537,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="23.5333290285537,0"
+                    Point2="27.5333290285537,0"
+                    Point3="27.5333290285537,4" />
+                  <mssgle:LineSegment
+                    End="27.5333290285537,31.5333336157269" />
+                  <mssgle:CubicBezierSegment
+                    Point1="27.5333290285537,31.5333336157269"
+                    Point2="27.5333290285537,35.5333336157269"
+                    Point3="31.5333290285537,35.5333336157269" />
+                  <mssgle:LineSegment
+                    End="47.5666580571074,35.5333336157269" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
