@@ -1,2 +1,2 @@
-# OLAP com SQL Server: Construcao do Data Warehouse
+# OLAP com SQL Server: Construção do Data Warehouse
 Curso Alura
