@@ -3,3 +3,13 @@ D:\Curso\Alura\ETL com Integration Services - Modelo de dados\DatawarehouseSucos
 D:\Curso\Alura\ETL com Integration Services - Modelo de dados\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.pdb
 D:\Curso\Alura\ETL com Integration Services - Modelo de dados\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.dll
 D:\Curso\Alura\ETL com Integration Services - Modelo de dados\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.pdb
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dacpac
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dll
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.pdb
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.sqlprojAssemblyReference.cache
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\Model.xml
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\refactor.xml
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\postdeploy.sql
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\predeploy.sql
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.dll
+D:\Curso\Alura\OLAP com SQL Server - Construção do Data Warehouse\OLAP-com-SQL-Server-Construcao-do-Data-Warehouse\DatawarehouseSucos\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.pdb

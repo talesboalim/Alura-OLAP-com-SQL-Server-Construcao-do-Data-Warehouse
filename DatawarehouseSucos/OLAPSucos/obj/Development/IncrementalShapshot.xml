@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>qqPg9NAc+MZ9x/X71LESbGCYlN0=17/09/2020 23:36:2017/09/2020 23:21:34</TimeStamp>
+        <TimeStamp>3sjOs5YEnEWj2oh3xVJKp890+4A=19/09/2020 17:47:0517/09/2020 23:21:34</TimeStamp>
         <ID>
           <String>DW SUCOS</String>
         </ID>
@@ -45,6 +45,48 @@
           <String>Cliente</String>
         </ID>
       </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Gmulx/hOzGn1JbhBAFVReZJ6zw4=19/09/2020 16:20:1419/09/2020 16:18:30</TimeStamp>
+        <ID>
+          <String>Produto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3duXtdnFwujRFF6L2vly1vOanIk=19/09/2020 16:25:3419/09/2020 16:21:56</TimeStamp>
+        <ID>
+          <String>Organizacional</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>T3xwbndsZXKGqgt7wbR6mrm7wLk=19/09/2020 17:56:1519/09/2020 17:48:07</TimeStamp>
+        <ID>
+          <String>Tempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>mtF6sHgcz1WP20zIhtPx9Ev6BtE=19/09/2020 18:33:4819/09/2020 17:57:28sQgSdCbN+s2gpC0FaTEcvxQNQU0=19/09/2020 17:57:2919/09/2020 17:57:29</TimeStamp>
+        <ID>
+          <String>Vendas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>GccskEGHuhvYFIYeBxy3pdeaA+E=19/09/2020 18:23:5719/09/2020 18:19:12VuJTIDNOWXNQqqeWgs402FatN+w=19/09/2020 18:19:1319/09/2020 18:19:12</TimeStamp>
+        <ID>
+          <String>Custos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>BRNLdr0KVYcMBjIbhMl7gmg6/5M=19/09/2020 18:41:1219/09/2020 18:25:28FFSI3qWjMr2o06n1s6zOc5P2pZA=19/09/2020 18:25:2819/09/2020 18:25:28</TimeStamp>
+        <ID>
+          <String>DW SUCOS</String>
+        </ID>
+      </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
@@ -57,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-09-18T02:46:15.836667Z</LastDeployed>
+  <LastDeployed>2020-09-19T21:41:17.5Z</LastDeployed>
 </DeploymentSnapshot>

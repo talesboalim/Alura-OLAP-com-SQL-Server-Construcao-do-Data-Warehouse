@@ -241,118 +241,31 @@ IF fulltextserviceproperty(N'IsFulltextInstalled') = 1
 
 
 GO
-PRINT N'Creating [dbo].[Dim_Fabrica]...';
+PRINT N'Creating [dbo].[Fato_004]...';
 
 
 GO
-CREATE TABLE [dbo].[Dim_Fabrica] (
-    [Cod_Fabrica]  NVARCHAR (50)  NOT NULL,
-    [Desc_Fabrica] NVARCHAR (200) NULL,
-    PRIMARY KEY CLUSTERED ([Cod_Fabrica] ASC)
-);
-
-
-GO
-PRINT N'Creating [dbo].[Dim_Cliente]...';
-
-
-GO
-CREATE TABLE [dbo].[Dim_Cliente] (
-    [Cod_Cliente]   NVARCHAR (50)  NOT NULL,
-    [Desc_Cliente]  NVARCHAR (200) NULL,
-    [Cod_Cidade]    NVARCHAR (50)  NULL,
-    [Desc_Cidade]   NVARCHAR (200) NULL,
-    [Cod_Estado]    NVARCHAR (50)  NULL,
-    [Desc_Estado]   NVARCHAR (200) NULL,
-    [Cod_Regiao]    NVARCHAR (50)  NULL,
-    [Desc_Regiao]   NVARCHAR (200) NULL,
-    [Cod_Segmento]  NVARCHAR (50)  NULL,
-    [Desc_Segmento] NVARCHAR (200) NULL,
-    PRIMARY KEY CLUSTERED ([Cod_Cliente] ASC)
-);
-
-
-GO
-PRINT N'Creating [dbo].[Dim_Categoria]...';
-
-
-GO
-CREATE TABLE [dbo].[Dim_Categoria] (
-    [Cod_Categoria]   NVARCHAR (50)  NOT NULL,
-    [Desc_Cateogoria] NVARCHAR (200) NULL,
-    PRIMARY KEY CLUSTERED ([Cod_Categoria] ASC)
-);
-
-
-GO
-PRINT N'Creating [dbo].[Dim_Marca]...';
-
-
-GO
-CREATE TABLE [dbo].[Dim_Marca] (
-    [Cod_Marca]     NVARCHAR (50)  NOT NULL,
-    [Desc_Marca]    NVARCHAR (200) NULL,
-    [Cod_Categoria] NVARCHAR (50)  NULL,
-    PRIMARY KEY CLUSTERED ([Cod_Marca] ASC)
-);
-
-
-GO
-PRINT N'Creating [dbo].[Dim_Produto]...';
-
-
-GO
-CREATE TABLE [dbo].[Dim_Produto] (
-    [Cod_Produto]  NVARCHAR (50)  NOT NULL,
-    [Desc_Produto] NVARCHAR (200) NULL,
-    [Atr_Tamanho]  NVARCHAR (200) NULL,
-    [Atr_Sabor]    NVARCHAR (200) NULL,
-    [Cod_Marca]    NVARCHAR (50)  NULL,
-    PRIMARY KEY CLUSTERED ([Cod_Produto] ASC)
-);
-
-
-GO
-PRINT N'Creating [dbo].[Dim_Organizacional]...';
-
-
-GO
-CREATE TABLE [dbo].[Dim_Organizacional] (
-    [Cod_Filho]  NVARCHAR (50) NOT NULL,
-    [Desc_Filho] NVARCHAR (50) NULL,
-    [Cod_Pai]    NVARCHAR (50) NULL,
-    [Esquerda]   INT           NULL,
-    [Direita]    INT           NULL,
-    [Nivel]      INT           NULL,
-    PRIMARY KEY CLUSTERED ([Cod_Filho] ASC)
-);
-
-
-GO
-PRINT N'Creating [dbo].[Dim_Tempo]...';
-
-
-GO
-CREATE TABLE [dbo].[Dim_Tempo] (
+CREATE TABLE [dbo].[Fato_004] (
+    [Cod_Cliente]        NVARCHAR (50) NOT NULL,
+    [Cod_Produto]        NVARCHAR (50) NOT NULL,
+    [Cod_Organizacional] NVARCHAR (50) NOT NULL,
     [Cod_Dia]            NVARCHAR (50) NOT NULL,
-    [Data]               DATE          NULL,
-    [Cod_Semana]         INT           NULL,
-    [Nome_Dia_Semana]    NVARCHAR (50) NULL,
-    [Cod_Mes]            INT           NULL,
-    [Nome_Mes]           NVARCHAR (50) NULL,
-    [Cod_Mes_Ano]        NVARCHAR (50) NULL,
-    [Nome_Mes_Ano]       NVARCHAR (50) NULL,
-    [Cod_Trimestre]      INT           NULL,
-    [Nome_Trimestre]     NVARCHAR (50) NULL,
-    [Cod_Trimestre_Ano]  INT           NULL,
-    [Nome_Trimestre_Ano] NVARCHAR (50) NULL,
-    [Cod_Semestre]       INT           NULL,
-    [Nome_Semestre]      NVARCHAR (50) NULL,
-    [Cod_Semestre_Ano]   INT           NULL,
-    [Nome_Semestre_Ano]  NVARCHAR (50) NULL,
-    [Ano]                NVARCHAR (50) NULL,
-    [Tipo_Dia]           NVARCHAR (50) NULL,
-    PRIMARY KEY CLUSTERED ([Cod_Dia] ASC)
+    [Meta_Faturamento]   FLOAT (53)    NULL,
+    PRIMARY KEY CLUSTERED ([Cod_Dia] ASC, [Cod_Cliente] ASC, [Cod_Produto] ASC, [Cod_Organizacional] ASC)
+);
+
+
+GO
+PRINT N'Creating [dbo].[Fato_005]...';
+
+
+GO
+CREATE TABLE [dbo].[Fato_005] (
+    [Cod_Produto] NVARCHAR (50) NOT NULL,
+    [Cod_Fabrica] NVARCHAR (50) NOT NULL,
+    [Cod_Dia]     NVARCHAR (50) NOT NULL,
+    [Meta_Custo]  FLOAT (53)    NULL,
+    PRIMARY KEY CLUSTERED ([Cod_Dia] ASC, [Cod_Produto] ASC, [Cod_Fabrica] ASC)
 );
 
 
@@ -409,59 +322,182 @@ CREATE TABLE [dbo].[Fato_001] (
 
 
 GO
-PRINT N'Creating [dbo].[Fato_004]...';
+PRINT N'Creating [dbo].[Dim_Tempo]...';
 
 
 GO
-CREATE TABLE [dbo].[Fato_004] (
-    [Cod_Cliente]        NVARCHAR (50) NOT NULL,
-    [Cod_Produto]        NVARCHAR (50) NOT NULL,
-    [Cod_Organizacional] NVARCHAR (50) NOT NULL,
+CREATE TABLE [dbo].[Dim_Tempo] (
     [Cod_Dia]            NVARCHAR (50) NOT NULL,
-    [Meta_Faturamento]   FLOAT (53)    NULL,
-    PRIMARY KEY CLUSTERED ([Cod_Dia] ASC, [Cod_Cliente] ASC, [Cod_Produto] ASC, [Cod_Organizacional] ASC)
+    [Data]               DATE          NULL,
+    [Cod_Semana]         INT           NULL,
+    [Nome_Dia_Semana]    NVARCHAR (50) NULL,
+    [Cod_Mes]            INT           NULL,
+    [Nome_Mes]           NVARCHAR (50) NULL,
+    [Cod_Mes_Ano]        NVARCHAR (50) NULL,
+    [Nome_Mes_Ano]       NVARCHAR (50) NULL,
+    [Cod_Trimestre]      INT           NULL,
+    [Nome_Trimestre]     NVARCHAR (50) NULL,
+    [Cod_Trimestre_Ano]  INT           NULL,
+    [Nome_Trimestre_Ano] NVARCHAR (50) NULL,
+    [Cod_Semestre]       INT           NULL,
+    [Nome_Semestre]      NVARCHAR (50) NULL,
+    [Cod_Semestre_Ano]   INT           NULL,
+    [Nome_Semestre_Ano]  NVARCHAR (50) NULL,
+    [Ano]                NVARCHAR (50) NULL,
+    [Tipo_Dia]           NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Cod_Dia] ASC)
 );
 
 
 GO
-PRINT N'Creating [dbo].[Fato_005]...';
+PRINT N'Creating [dbo].[Dim_Organizacional]...';
 
 
 GO
-CREATE TABLE [dbo].[Fato_005] (
-    [Cod_Produto] NVARCHAR (50) NOT NULL,
-    [Cod_Fabrica] NVARCHAR (50) NOT NULL,
-    [Cod_Dia]     NVARCHAR (50) NOT NULL,
-    [Meta_Custo]  FLOAT (53)    NULL,
-    PRIMARY KEY CLUSTERED ([Cod_Dia] ASC, [Cod_Produto] ASC, [Cod_Fabrica] ASC)
+CREATE TABLE [dbo].[Dim_Organizacional] (
+    [Cod_Filho]  NVARCHAR (50) NOT NULL,
+    [Desc_Filho] NVARCHAR (50) NULL,
+    [Cod_Pai]    NVARCHAR (50) NULL,
+    [Esquerda]   INT           NULL,
+    [Direita]    INT           NULL,
+    [Nivel]      INT           NULL,
+    PRIMARY KEY CLUSTERED ([Cod_Filho] ASC)
 );
 
 
 GO
-PRINT N'Creating [dbo].[FK_Dim_Marca_Dim_Categoria]...';
+PRINT N'Creating [dbo].[Dim_Marca]...';
 
 
 GO
-ALTER TABLE [dbo].[Dim_Marca]
-    ADD CONSTRAINT [FK_Dim_Marca_Dim_Categoria] FOREIGN KEY ([Cod_Categoria]) REFERENCES [dbo].[Dim_Categoria] ([Cod_Categoria]);
+CREATE TABLE [dbo].[Dim_Marca] (
+    [Cod_Marca]     NVARCHAR (50)  NOT NULL,
+    [Desc_Marca]    NVARCHAR (200) NULL,
+    [Cod_Categoria] NVARCHAR (50)  NULL,
+    PRIMARY KEY CLUSTERED ([Cod_Marca] ASC)
+);
 
 
 GO
-PRINT N'Creating [dbo].[FK_Dim_Produto_Dim_Marca]...';
+PRINT N'Creating [dbo].[Dim_Categoria]...';
 
 
 GO
-ALTER TABLE [dbo].[Dim_Produto]
-    ADD CONSTRAINT [FK_Dim_Produto_Dim_Marca] FOREIGN KEY ([Cod_Marca]) REFERENCES [dbo].[Dim_Marca] ([Cod_Marca]);
+CREATE TABLE [dbo].[Dim_Categoria] (
+    [Cod_Categoria]   NVARCHAR (50)  NOT NULL,
+    [Desc_Cateogoria] NVARCHAR (200) NULL,
+    PRIMARY KEY CLUSTERED ([Cod_Categoria] ASC)
+);
 
 
 GO
-PRINT N'Creating [dbo].[FK_Dim_Organizacional_Dim_Organizacional]...';
+PRINT N'Creating [dbo].[Dim_Produto]...';
 
 
 GO
-ALTER TABLE [dbo].[Dim_Organizacional]
-    ADD CONSTRAINT [FK_Dim_Organizacional_Dim_Organizacional] FOREIGN KEY ([Cod_Pai]) REFERENCES [dbo].[Dim_Organizacional] ([Cod_Filho]);
+CREATE TABLE [dbo].[Dim_Produto] (
+    [Cod_Produto]  NVARCHAR (50)  NOT NULL,
+    [Desc_Produto] NVARCHAR (200) NULL,
+    [Atr_Tamanho]  NVARCHAR (200) NULL,
+    [Atr_Sabor]    NVARCHAR (200) NULL,
+    [Cod_Marca]    NVARCHAR (50)  NULL,
+    PRIMARY KEY CLUSTERED ([Cod_Produto] ASC)
+);
+
+
+GO
+PRINT N'Creating [dbo].[Dim_Cliente]...';
+
+
+GO
+CREATE TABLE [dbo].[Dim_Cliente] (
+    [Cod_Cliente]   NVARCHAR (50)  NOT NULL,
+    [Desc_Cliente]  NVARCHAR (200) NULL,
+    [Cod_Cidade]    NVARCHAR (50)  NULL,
+    [Desc_Cidade]   NVARCHAR (200) NULL,
+    [Cod_Estado]    NVARCHAR (50)  NULL,
+    [Desc_Estado]   NVARCHAR (200) NULL,
+    [Cod_Regiao]    NVARCHAR (50)  NULL,
+    [Desc_Regiao]   NVARCHAR (200) NULL,
+    [Cod_Segmento]  NVARCHAR (50)  NULL,
+    [Desc_Segmento] NVARCHAR (200) NULL,
+    PRIMARY KEY CLUSTERED ([Cod_Cliente] ASC)
+);
+
+
+GO
+PRINT N'Creating [dbo].[Dim_Fabrica]...';
+
+
+GO
+CREATE TABLE [dbo].[Dim_Fabrica] (
+    [Cod_Fabrica]  NVARCHAR (50)  NOT NULL,
+    [Desc_Fabrica] NVARCHAR (200) NULL,
+    PRIMARY KEY CLUSTERED ([Cod_Fabrica] ASC)
+);
+
+
+GO
+PRINT N'Creating [dbo].[FK_Fato_004_DimCliente]...';
+
+
+GO
+ALTER TABLE [dbo].[Fato_004]
+    ADD CONSTRAINT [FK_Fato_004_DimCliente] FOREIGN KEY ([Cod_Cliente]) REFERENCES [dbo].[Dim_Cliente] ([Cod_Cliente]);
+
+
+GO
+PRINT N'Creating [dbo].[FK_Fato_004_Dim_Produto]...';
+
+
+GO
+ALTER TABLE [dbo].[Fato_004]
+    ADD CONSTRAINT [FK_Fato_004_Dim_Produto] FOREIGN KEY ([Cod_Produto]) REFERENCES [dbo].[Dim_Produto] ([Cod_Produto]);
+
+
+GO
+PRINT N'Creating [dbo].[FK_Fato_004_Dim_Organizacional]...';
+
+
+GO
+ALTER TABLE [dbo].[Fato_004]
+    ADD CONSTRAINT [FK_Fato_004_Dim_Organizacional] FOREIGN KEY ([Cod_Organizacional]) REFERENCES [dbo].[Dim_Organizacional] ([Cod_Filho]);
+
+
+GO
+PRINT N'Creating [dbo].[FK_Fato_004_Dim_Tempo]...';
+
+
+GO
+ALTER TABLE [dbo].[Fato_004]
+    ADD CONSTRAINT [FK_Fato_004_Dim_Tempo] FOREIGN KEY ([Cod_Dia]) REFERENCES [dbo].[Dim_Tempo] ([Cod_Dia]);
+
+
+GO
+PRINT N'Creating [dbo].[FK_Fato_005_Dim_Produto]...';
+
+
+GO
+ALTER TABLE [dbo].[Fato_005]
+    ADD CONSTRAINT [FK_Fato_005_Dim_Produto] FOREIGN KEY ([Cod_Produto]) REFERENCES [dbo].[Dim_Produto] ([Cod_Produto]);
+
+
+GO
+PRINT N'Creating [dbo].[FK_Fato_005_Dim_Fabrica]...';
+
+
+GO
+ALTER TABLE [dbo].[Fato_005]
+    ADD CONSTRAINT [FK_Fato_005_Dim_Fabrica] FOREIGN KEY ([Cod_Fabrica]) REFERENCES [dbo].[Dim_Fabrica] ([Cod_Fabrica]);
+
+
+GO
+PRINT N'Creating [dbo].[FK_Fato_005_Dim_Tempo]...';
+
+
+GO
+ALTER TABLE [dbo].[Fato_005]
+    ADD CONSTRAINT [FK_Fato_005_Dim_Tempo] FOREIGN KEY ([Cod_Dia]) REFERENCES [dbo].[Dim_Tempo] ([Cod_Dia]);
 
 
 GO
@@ -564,66 +600,30 @@ ALTER TABLE [dbo].[Fato_001]
 
 
 GO
-PRINT N'Creating [dbo].[FK_Fato_004_DimCliente]...';
+PRINT N'Creating [dbo].[FK_Dim_Organizacional_Dim_Organizacional]...';
 
 
 GO
-ALTER TABLE [dbo].[Fato_004]
-    ADD CONSTRAINT [FK_Fato_004_DimCliente] FOREIGN KEY ([Cod_Cliente]) REFERENCES [dbo].[Dim_Cliente] ([Cod_Cliente]);
+ALTER TABLE [dbo].[Dim_Organizacional]
+    ADD CONSTRAINT [FK_Dim_Organizacional_Dim_Organizacional] FOREIGN KEY ([Cod_Pai]) REFERENCES [dbo].[Dim_Organizacional] ([Cod_Filho]);
 
 
 GO
-PRINT N'Creating [dbo].[FK_Fato_004_Dim_Produto]...';
+PRINT N'Creating [dbo].[FK_Dim_Marca_Dim_Categoria]...';
 
 
 GO
-ALTER TABLE [dbo].[Fato_004]
-    ADD CONSTRAINT [FK_Fato_004_Dim_Produto] FOREIGN KEY ([Cod_Produto]) REFERENCES [dbo].[Dim_Produto] ([Cod_Produto]);
+ALTER TABLE [dbo].[Dim_Marca]
+    ADD CONSTRAINT [FK_Dim_Marca_Dim_Categoria] FOREIGN KEY ([Cod_Categoria]) REFERENCES [dbo].[Dim_Categoria] ([Cod_Categoria]);
 
 
 GO
-PRINT N'Creating [dbo].[FK_Fato_004_Dim_Organizacional]...';
+PRINT N'Creating [dbo].[FK_Dim_Produto_Dim_Marca]...';
 
 
 GO
-ALTER TABLE [dbo].[Fato_004]
-    ADD CONSTRAINT [FK_Fato_004_Dim_Organizacional] FOREIGN KEY ([Cod_Organizacional]) REFERENCES [dbo].[Dim_Organizacional] ([Cod_Filho]);
-
-
-GO
-PRINT N'Creating [dbo].[FK_Fato_004_Dim_Tempo]...';
-
-
-GO
-ALTER TABLE [dbo].[Fato_004]
-    ADD CONSTRAINT [FK_Fato_004_Dim_Tempo] FOREIGN KEY ([Cod_Dia]) REFERENCES [dbo].[Dim_Tempo] ([Cod_Dia]);
-
-
-GO
-PRINT N'Creating [dbo].[FK_Fato_005_Dim_Produto]...';
-
-
-GO
-ALTER TABLE [dbo].[Fato_005]
-    ADD CONSTRAINT [FK_Fato_005_Dim_Produto] FOREIGN KEY ([Cod_Produto]) REFERENCES [dbo].[Dim_Produto] ([Cod_Produto]);
-
-
-GO
-PRINT N'Creating [dbo].[FK_Fato_005_Dim_Fabrica]...';
-
-
-GO
-ALTER TABLE [dbo].[Fato_005]
-    ADD CONSTRAINT [FK_Fato_005_Dim_Fabrica] FOREIGN KEY ([Cod_Fabrica]) REFERENCES [dbo].[Dim_Fabrica] ([Cod_Fabrica]);
-
-
-GO
-PRINT N'Creating [dbo].[FK_Fato_005_Dim_Tempo]...';
-
-
-GO
-ALTER TABLE [dbo].[Fato_005]
-    ADD CONSTRAINT [FK_Fato_005_Dim_Tempo] FOREIGN KEY ([Cod_Dia]) REFERENCES [dbo].[Dim_Tempo] ([Cod_Dia]);
+ALTER TABLE [dbo].[Dim_Produto]
+    ADD CONSTRAINT [FK_Dim_Produto_Dim_Marca] FOREIGN KEY ([Cod_Marca]) REFERENCES [dbo].[Dim_Marca] ([Cod_Marca]);
 
 
 GO

@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="33"
-  DTS:VersionGUID="{12BEDE9F-0BEF-4FA8-AB57-DF6F64F6A23D}">
+  DTS:VersionBuild="36"
+  DTS:VersionGUID="{600905B9-6ABA-4CF0-9146-D3A72298CDEC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -124,7 +124,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADFOCbUWdNQ2o6L7Xq8tZ7ZiX9GAbasyCyxyQNF6L6nvgAAAAAOgAAAAAIAACAAAAACjvkrEVvlb4oRebg9JCOka1LcSs4+V7tpAPm5IQ04iBAAAAAULQn1bEiRf8tpNva6NtkrQAAAAJegcqomlbmmc66A/hgBAYgrM3QBuHS+mc7nvHtlLsmTvJ1adU9XsSYa0HK2pbo7CwpvfMSt9ZnsuktLqPLrKA8</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbqiBQOOTghnpPvZxjl//C3XW8UFZU/0Eo0X4p0CgtMwAAAAAOgAAAAAIAACAAAADcNd2NJIDFOxqwo6VFMvm6YrRL6H08zY8I/Pju+kBcDBAAAADV0YSo0MOuX3p/3jgB/IgeQAAAANKrQnvxaYoVNN+afg/jKyn8Wi6qkHhSJo0oNoz9t5WVJp580eT70CFCAwPKKmiCKVO6pqIKGydCYkqUa+fYpTw</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -139,7 +139,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADFG+1SyO7bWYeot0LRqWjwwGiOSIhBrn0Hlbd7BdwBwAAAAAAOgAAAAAIAACAAAAAoBS9m+d3saYGu53kP/hIxYax7lZbWGounIFdhwrRKIhAAAAAm+cE6Lo1Fl2Ydsp52Yye0QAAAAHdLCZ4XWdZKJzSAwDhsg99vTRuasppVwVa46SRHnVJUNwqC2mhkI/fWvd0HGK2f9VM1iGTlhoS53uRFDiLfe6Q</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAv194rgEGv1TWy1daO6Cc628AeYVTcfkrGSjhavRIUWwAAAAAOgAAAAAIAACAAAACndg85biTLOHkeUnXZX/+XaLNvhZAzBZbVxgSOuQvPkhAAAABtH8pKa4sXyTvPMo2jVBhZQAAAABYLWmO/JzlXn9xXdMoIQOEi8Vdck5PJDCDrPgxgyhog8eiuaSzpRQX57M1rYZumDXjDwvm0VXeFg6wQlu5WXN0</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -154,7 +154,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAxY+t44Fcm/hhQ4k2PQDWokY3Wa2/4fqznaDmRiiIC6wAAAAAOgAAAAAIAACAAAAAZA/C7CWwcjMit0cYF2ApQgZ1p5c1LyGrB2zUYLftKThAAAACcRyiMtCNhWtPNRw7TimddQAAAABTm/uF73s/jqMeV/RQzWTETrU+9rOubIBOTUEHI4fnoTyLcuDUNy2h0s4KJcK2zaHFng3ogr1dOzBo9skjbJmY</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACq+IY89VYqYVbdxZIjA8LBhqK0DC1p+DwAYaYVTCwQ/gAAAAAOgAAAAAIAACAAAACSpET7QaALzAfgkpg5d7MsLtMC/yYa+GKrnzge6GWcehAAAAAXRhK5wO6lXKZkKcudMUQPQAAAAOZD6DDbZZI2eRyGa9GD8g35H6C7sLKARsCJw48PS14DK4rY5llmhq+EyKWMOux+QyaLQAcjjKf9dxkkl5XnZ1E</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -169,7 +169,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACqbYZYA/y5GcRId21WDzs7hNjA6+cGmMNrSqMwbD8cMAAAAAAOgAAAAAIAACAAAABs49ABhTJAJJtZK5NcFPrmfX5PCeoHrQyNIgXtGPPDBRAAAAC9T4HhghshV34PVPezqRa4QAAAAMTpjOWFPKgSd9GKay0pbe3vdH1LIbiOfr5Tqj7WkdLDMpZP0FwkD4JyWtiiUHOrgX7tXFfDlq947cfP2/ovYOg</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB+aeRKswB17YvYZ5ewBO54/X5/EFP4mqpO8Gc/E+ukLQAAAAAOgAAAAAIAACAAAAD7fdcI3uyu3Hl2nYHQ3K2W+eFJGqE2db/IU6KWW44pVxAAAAAc5Chjlcj0PnCAR2OM9jUNQAAAAM45giZQEEELbN06rZHSksIBdzQVZRjwRy4YSAjVb4DT4CQNP38Ao0UkT1mQeVqG2sOdMtCtAAZ/Lj2lc+19vaM</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -184,7 +184,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABgY9jraSgk3Ea65bHqnV4KwHFMPa3JEYVMDCFpN3QD9AAAAAAOgAAAAAIAACAAAAD36o1OmcEnHO9GTcv+3QBqOYPwPB30wng4cxc8lFObwBAAAAAxb25UenUr0V7h4MWpxlDEQAAAALAR0WAg9e94aME7mZG6Fqyk6/keU8cUfDCwzpQbt17gms7G6UY8V2/Nh/6aCKHvcf5JqvY1cUp1Xibd3UfZfVQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAANwqO4yRwsxgLDCcZlY6uY90Kv37GXmJrO/l1n3ZElogAAAAAOgAAAAAIAACAAAADz8pPRT5KrHSe3LDsgB3xqlKbYwQXAsEVoiGuv3nWpPhAAAACjFA3Ul4M/X6/X14eKfCuMQAAAALT6UIGoRY+1JTEZvx1bHepwEylmGSv153Qm1/kZ/JyXhmKx8dVk/gIQuhyDhzeYof5lsj9HlJUQVyD+c3azRPQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -235,7 +235,7 @@
       DTS:ObjectName="Ano_Final">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">2014</DTS:Property>
+        DTS:Name="ParameterValue">2020</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -244,7 +244,7 @@
       DTS:ObjectName="Ano_Inicial">
       <DTS:Property
         DTS:DataType="8"
-        DTS:Name="ParameterValue">2014</DTS:Property>
+        DTS:Name="ParameterValue">2010</DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -271,6 +271,7 @@
       DTS:refId="Package\Criação da Dimensão Cliente"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{3390A572-A59F-4795-9369-687D895F1270}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3025,6 +3026,7 @@
       DTS:refId="Package\Criação da Dimensão Fábrica"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{55F4D9D7-5F32-4E64-91C7-C990F5810025}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3830,6 +3832,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab1 Nível 1"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{42705A8D-57F3-4FB3-8F53-8880C798AD51}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4751,6 +4754,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab1 Nível 2"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{ABE7A4A2-E884-4824-85ED-E2BB275C545C}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5805,6 +5809,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab1 Nível 3"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{6B9BC790-1830-41FE-A835-25574A0BE312}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6859,6 +6864,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab2 Nível 1"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{68DA9B71-974F-4C3D-AED1-0C0EE2B8D145}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -7771,6 +7777,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab2 Nível 2"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{5E417BA7-D9D8-43BC-94C8-4A88A89C5F36}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -8816,6 +8823,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Produto - Nível Categoria"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{EBD78A66-8035-47D8-8D85-B67421783125}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -9767,6 +9775,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Produto - Nível Marca"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{e3b93710-77fa-4f56-8e3f-a3f888868a44}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -10753,6 +10762,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Produto - Nível Produto"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{DA7CB3F4-B94B-4EC6-A34D-A827878CAD6A}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -12121,7 +12131,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                   description="O comando SQL a ser executado."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[Dim_Tempo] SET [Ano] = ?,[Cod_Mes] = ?,[Cod_Mes_Ano] = ?,[Cod_Semana] = ?,[Cod_Semestre] = ?,[Cod_Trimestre] = ?,[Data] = ?,[Nome_Dia_Semana] = ?,[Nome_Mes] = ?,[Nome_Mes_Ano] = ?,[Nome_Semestre] = ?,[Nome_Semestre_Ano] = ?,[Nome_Trimestre] = ?,[Nome_Trimestre_Ano] = ?,[Tipo_Dia] = ? WHERE [Cod_Dia] = ?</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[Dim_Tempo] SET [Ano] = ?,[Cod_Mes] = ?,[Cod_Mes_Ano] = ?,[Cod_Semana] = ?,[Cod_Semestre] = ?,[Cod_Semestre_Ano] = ?,[Cod_Trimestre] = ?,[Cod_Trimestre_Ano] = ?,[Data] = ?,[Nome_Dia_Semana] = ?,[Nome_Mes] = ?,[Nome_Mes_Ano] = ?,[Nome_Semestre] = ?,[Nome_Semestre_Ano] = ?,[Nome_Trimestre] = ?,[Nome_Trimestre_Ano] = ?,[Tipo_Dia] = ? WHERE [Cod_Dia] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Especifica a página de código de coluna a ser usada quando não há informações de página de código disponíveis a partir da fonte de dados."
@@ -12155,7 +12165,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Cod_Dia"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_15]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_17]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Dia]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Cod_Mes]"
@@ -12183,72 +12193,86 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                       externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_4]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Semestre]" />
                     <inputColumn
+                      refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Cod_Semestre_Ano]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Cod_Semestre_Ano"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_5]"
+                      lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Semestre_Ano]" />
+                    <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Cod_Trimestre]"
                       cachedDataType="i4"
                       cachedName="Cod_Trimestre"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_5]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_6]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Trimestre]" />
+                    <inputColumn
+                      refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Cod_Trimestre_Ano]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Cod_Trimestre_Ano"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_7]"
+                      lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Trimestre_Ano]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Data]"
                       cachedDataType="dbDate"
                       cachedName="Data"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_6]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_8]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Data]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Nome_Dia_Semana]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Dia_Semana"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_7]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_9]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Dia_Semana]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Nome_Mes]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Mes"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_8]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_10]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Mes]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Nome_Mes_Ano]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Mes_Ano"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_9]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_11]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Mes_Ano]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Nome_Semestre]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Semestre"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_10]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_12]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Semestre]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Nome_Semestre_Ano]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Semestre_Ano"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_11]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_13]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Semestre_Ano]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Nome_Trimestre]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Trimestre"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_12]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_14]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Trimestre]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Nome_Trimestre_Ano]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Trimestre_Ano"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_13]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_15]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Trimestre_Ano]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].Columns[Tipo_Dia]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Tipo_Dia"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_14]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_16]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Tipo_Dia]" />
                   </inputColumns>
                   <externalMetadataColumns
@@ -12312,24 +12336,25 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_5]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="50"
                       name="Param_5">
                       <properties>
                         <property
                           dataType="System.Int32"
                           description="Informações de parâmetro. Corresponde os valores de DBPARAMFLAGSENUM de OLE DB."
-                          name="DBParamInfoFlags">81</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_6]"
-                      dataType="dbDate"
+                      dataType="i4"
                       name="Param_6">
                       <properties>
                         <property
                           dataType="System.Int32"
                           description="Informações de parâmetro. Corresponde os valores de DBPARAMFLAGSENUM de OLE DB."
-                          name="DBParamInfoFlags">65</property>
+                          name="DBParamInfoFlags">81</property>
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
@@ -12346,8 +12371,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_8]"
-                      dataType="wstr"
-                      length="50"
+                      dataType="dbDate"
                       name="Param_8">
                       <properties>
                         <property
@@ -12440,6 +12464,30 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                           name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_16]"
+                      dataType="wstr"
+                      length="50"
+                      name="Param_16">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Informações de parâmetro. Corresponde os valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Criação da Dimensão Tempo\Comando OLE DB.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_17]"
+                      dataType="wstr"
+                      length="50"
+                      name="Param_17">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Informações de parâmetro. Corresponde os valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -12493,7 +12541,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                   description="O comando SQL a ser executado."
                   expressionType="Notify"
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[Dim_Tempo] SET [Ano] = ?,[Cod_Mes] = ?,[Cod_Mes_Ano] = ?,[Cod_Semana] = ?,[Cod_Semestre] = ?,[Cod_Trimestre] = ?,[Data] = ?,[Nome_Dia_Semana] = ?,[Nome_Mes] = ?,[Nome_Mes_Ano] = ?,[Nome_Semestre] = ?,[Nome_Semestre_Ano] = ?,[Nome_Trimestre] = ?,[Nome_Trimestre_Ano] = ?,[Tipo_Dia] = ? WHERE [Cod_Dia] = ?</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">UPDATE [dbo].[Dim_Tempo] SET [Ano] = ?,[Cod_Mes] = ?,[Cod_Mes_Ano] = ?,[Cod_Semana] = ?,[Cod_Semestre] = ?,[Cod_Semestre_Ano] = ?,[Cod_Trimestre] = ?,[Cod_Trimestre_Ano] = ?,[Data] = ?,[Nome_Dia_Semana] = ?,[Nome_Mes] = ?,[Nome_Mes_Ano] = ?,[Nome_Semestre] = ?,[Nome_Semestre_Ano] = ?,[Nome_Trimestre] = ?,[Nome_Trimestre_Ano] = ?,[Tipo_Dia] = ? WHERE [Cod_Dia] = ?</property>
                 <property
                   dataType="System.Int32"
                   description="Especifica a página de código de coluna a ser usada quando não há informações de página de código disponíveis a partir da fonte de dados."
@@ -12527,7 +12575,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Cod_Dia"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_15]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_17]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Dia]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Cod_Mes]"
@@ -12555,72 +12603,86 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                       externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_4]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Semestre]" />
                     <inputColumn
+                      refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Cod_Semestre_Ano]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Cod_Semestre_Ano"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_5]"
+                      lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Semestre_Ano]" />
+                    <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Cod_Trimestre]"
                       cachedDataType="i4"
                       cachedName="Cod_Trimestre"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_5]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_6]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Trimestre]" />
+                    <inputColumn
+                      refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Cod_Trimestre_Ano]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Cod_Trimestre_Ano"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_7]"
+                      lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Trimestre_Ano]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Data]"
                       cachedDataType="dbDate"
                       cachedName="Data"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_6]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_8]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Data]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Nome_Dia_Semana]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Dia_Semana"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_7]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_9]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Dia_Semana]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Nome_Mes]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Mes"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_8]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_10]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Mes]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Nome_Mes_Ano]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Mes_Ano"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_9]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_11]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Mes_Ano]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Nome_Semestre]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Semestre"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_10]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_12]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Semestre]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Nome_Semestre_Ano]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Semestre_Ano"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_11]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_13]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Semestre_Ano]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Nome_Trimestre]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Trimestre"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_12]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_14]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Trimestre]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Nome_Trimestre_Ano]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Nome_Trimestre_Ano"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_13]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_15]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Trimestre_Ano]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].Columns[Tipo_Dia]"
                       cachedDataType="wstr"
                       cachedLength="50"
                       cachedName="Tipo_Dia"
-                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_14]"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_16]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Tipo_Dia]" />
                   </inputColumns>
                   <externalMetadataColumns
@@ -12684,24 +12746,25 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_5]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="50"
                       name="Param_5">
                       <properties>
                         <property
                           dataType="System.Int32"
                           description="Informações de parâmetro. Corresponde os valores de DBPARAMFLAGSENUM de OLE DB."
-                          name="DBParamInfoFlags">81</property>
+                          name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_6]"
-                      dataType="dbDate"
+                      dataType="i4"
                       name="Param_6">
                       <properties>
                         <property
                           dataType="System.Int32"
                           description="Informações de parâmetro. Corresponde os valores de DBPARAMFLAGSENUM de OLE DB."
-                          name="DBParamInfoFlags">65</property>
+                          name="DBParamInfoFlags">81</property>
                       </properties>
                     </externalMetadataColumn>
                     <externalMetadataColumn
@@ -12718,8 +12781,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                     </externalMetadataColumn>
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_8]"
-                      dataType="wstr"
-                      length="50"
+                      dataType="dbDate"
                       name="Param_8">
                       <properties>
                         <property
@@ -12812,6 +12874,30 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                           name="DBParamInfoFlags">65</property>
                       </properties>
                     </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_16]"
+                      dataType="wstr"
+                      length="50"
+                      name="Param_16">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Informações de parâmetro. Corresponde os valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
+                    <externalMetadataColumn
+                      refId="Package\Criação da Dimensão Tempo\Comando OLE DB 1.Inputs[Entrada de Comando OLE DB].ExternalColumns[Param_17]"
+                      dataType="wstr"
+                      length="50"
+                      name="Param_17">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Informações de parâmetro. Corresponde os valores de DBPARAMFLAGSENUM de OLE DB."
+                          name="DBParamInfoFlags">65</property>
+                      </properties>
+                    </externalMetadataColumn>
                   </externalMetadataColumns>
                 </input>
               </inputs>
@@ -12859,7 +12945,7 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                   dataType="System.String"
                   description="Especifica a instrução SELECT usada para criar um conjunto de linhas de esquema."
                   name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [Ano], [Cod_Dia], [Cod_Mes], [Cod_Mes_Ano], [Cod_Semana], [Cod_Semestre], [Cod_Trimestre], [Data], [Nome_Dia_Semana], [Nome_Mes], [Nome_Mes_Ano], [Nome_Semestre], [Nome_Semestre_Ano], [Nome_Trimestre], [Nome_Trimestre_Ano], [Tipo_Dia] FROM [dbo].[Dim_Tempo]</property>
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT [Ano], [Cod_Dia], [Cod_Mes], [Cod_Mes_Ano], [Cod_Semana], [Cod_Semestre], [Cod_Semestre_Ano], [Cod_Trimestre], [Cod_Trimestre_Ano], [Data], [Nome_Dia_Semana], [Nome_Mes], [Nome_Mes_Ano], [Nome_Semestre], [Nome_Semestre_Ano], [Nome_Trimestre], [Nome_Trimestre_Ano], [Tipo_Dia] FROM [dbo].[Dim_Tempo]</property>
                 <property
                   dataType="System.String"
                   description="Especifica a cláusula WHERE na instrução SELECT que seleciona a linha atual entre as linhas com chaves de negócios idênticas."
@@ -12989,11 +13075,39 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                       </properties>
                     </inputColumn>
                     <inputColumn
+                      refId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].Columns[Cod_Semestre_Ano]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Cod_Semestre_Ano"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].ExternalColumns[Cod_Semestre_Ano]"
+                      lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Semestre_Ano]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].Columns[Cod_Trimestre]"
                       cachedDataType="i4"
                       cachedName="Cod_Trimestre"
                       externalMetadataColumnId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].ExternalColumns[Cod_Trimestre]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Trimestre]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          name="ColumnType"
+                          typeConverter="ColumnType">2</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].Columns[Cod_Trimestre_Ano]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Cod_Trimestre_Ano"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].ExternalColumns[Cod_Trimestre_Ano]"
+                      lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Trimestre_Ano]">
                       <properties>
                         <property
                           dataType="System.Int32"
@@ -13157,9 +13271,19 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
                       dataType="i4"
                       name="Cod_Semestre" />
                     <externalMetadataColumn
+                      refId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].ExternalColumns[Cod_Semestre_Ano]"
+                      dataType="wstr"
+                      length="50"
+                      name="Cod_Semestre_Ano" />
+                    <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].ExternalColumns[Cod_Trimestre]"
                       dataType="i4"
                       name="Cod_Trimestre" />
+                    <externalMetadataColumn
+                      refId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].ExternalColumns[Cod_Trimestre_Ano]"
+                      dataType="wstr"
+                      length="50"
+                      name="Cod_Trimestre_Ano" />
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta.Inputs[Entrada de Dimensão de Alteração Lenta].ExternalColumns[Data]"
                       dataType="dbDate"
@@ -14075,6 +14199,13 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
                       externalMetadataColumnId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].ExternalColumns[Nome_Trimestre]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Trimestre]" />
                     <inputColumn
+                      refId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].Columns[Cod_Trimestre_Ano]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Cod_Trimestre_Ano"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].ExternalColumns[Cod_Trimestre_Ano]"
+                      lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Trimestre_Ano]" />
+                    <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].Columns[Nome_Trimestre_Ano]"
                       cachedDataType="wstr"
                       cachedLength="50"
@@ -14094,6 +14225,13 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
                       cachedName="Nome_Semestre"
                       externalMetadataColumnId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].ExternalColumns[Nome_Semestre]"
                       lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Nome_Semestre]" />
+                    <inputColumn
+                      refId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].Columns[Cod_Semestre_Ano]"
+                      cachedDataType="wstr"
+                      cachedLength="50"
+                      cachedName="Cod_Semestre_Ano"
+                      externalMetadataColumnId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].ExternalColumns[Cod_Semestre_Ano]"
+                      lineageId="Package\Criação da Dimensão Tempo\Execução do Script do Tempo.Outputs[Saída de Origem OLE DB].Columns[Cod_Semestre_Ano]" />
                     <inputColumn
                       refId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].Columns[Nome_Semestre_Ano]"
                       cachedDataType="wstr"
@@ -14166,7 +14304,8 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
                       name="Nome_Trimestre" />
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].ExternalColumns[Cod_Trimestre_Ano]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="50"
                       name="Cod_Trimestre_Ano" />
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].ExternalColumns[Nome_Trimestre_Ano]"
@@ -14184,7 +14323,8 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
                       name="Nome_Semestre" />
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].ExternalColumns[Cod_Semestre_Ano]"
-                      dataType="i4"
+                      dataType="wstr"
+                      length="50"
                       name="Cod_Semestre_Ano" />
                     <externalMetadataColumn
                       refId="Package\Criação da Dimensão Tempo\Insert Destination.Inputs[Entrada de Destino OLE DB].ExternalColumns[Nome_Semestre_Ano]"
@@ -14259,6 +14399,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
       DTS:refId="Package\Execução da rotina de Esquerda Direita Nível"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
+      DTS:Disabled="True"
       DTS:DTSID="{B33D61C1-5320-4CBD-B771-3D7C8BDFBD58}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -14276,6 +14417,7 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
       DTS:refId="Package\Transferência do Esquerda, Direta e Nível"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
+      DTS:Disabled="True"
       DTS:DTSID="{AE2323E3-4609-498F-9E70-5A196C6804D6}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -18783,26 +18925,14 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
         <NodeLayout
           Size="215.2,41.6"
           Id="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta"
-          TopLeft="199.5,107.1" />
-        <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\Criação da Dimensão Tempo\Insert Destination"
-          TopLeft="5.50000000000009,208.7" />
+          TopLeft="202.1,107.1" />
         <NodeLayout
           Size="241.6,41.6"
           Id="Package\Criação da Dimensão Tempo\Execução do Script do Tempo"
-          TopLeft="186.3,5.49999999999995" />
-        <NodeLayout
-          Size="172.8,41.6"
-          Id="Package\Criação da Dimensão Tempo\Comando OLE DB 1"
-          TopLeft="449.7,208.7" />
-        <NodeLayout
-          Size="164,41.6"
-          Id="Package\Criação da Dimensão Tempo\Comando OLE DB"
-          TopLeft="225.1,208.7" />
+          TopLeft="188.9,5.49999999999995" />
         <EdgeLayout
           Id="Package\Criação da Dimensão Tempo.Paths[Saída de Origem OLE DB]"
-          TopLeft="307.1,47.1">
+          TopLeft="309.7,47.1">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -18822,9 +18952,53 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Criação da Dimensão Tempo\Insert Destination"
+          TopLeft="5.5000000000001,208.7" />
+        <EdgeLayout
+          Id="Package\Criação da Dimensão Tempo.Paths[Nova Saída]"
+          TopLeft="257.9,148.7">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-171.2,60"
+              Start="0,0"
+              End="-171.2,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.4895960832313" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.4895960832313"
+                    Point2="0,20.4895960832313"
+                    Point3="-4,20.4895960832313" />
+                  <mssgle:LineSegment
+                    End="-167.2,20.4895960832313" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-167.2,20.4895960832313"
+                    Point2="-171.2,20.4895960832313"
+                    Point3="-171.2,24.4895960832313" />
+                  <mssgle:LineSegment
+                    End="-171.2,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-110.593359375,25.4895960832313,49.98671875,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Criação da Dimensão Tempo\Comando OLE DB"
+          TopLeft="228.9,208.7" />
         <EdgeLayout
           Id="Package\Criação da Dimensão Tempo.Paths[Saída de Atualizações de Membro Inferido]"
-          TopLeft="307.1,148.7">
+          TopLeft="309.7,148.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -18846,15 +19020,19 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Criação da Dimensão Tempo\Comando OLE DB 1"
+          TopLeft="451.1,208.7" />
         <EdgeLayout
           Id="Package\Criação da Dimensão Tempo.Paths[Saída de Atualizações de Atributo de Alteração]"
-          TopLeft="358.9,148.7">
+          TopLeft="361.5,148.7">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="177.2,60"
+              EndConnector="175.2,60"
               Start="0,0"
-              End="177.2,52.5">
+              End="175.2,52.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
@@ -18865,56 +19043,20 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
                     Point2="0,20.4895960832313"
                     Point3="4,20.4895960832313" />
                   <mssgle:LineSegment
-                    End="173.2,20.4895960832313" />
+                    End="171.2,20.4895960832313" />
                   <mssgle:CubicBezierSegment
-                    Point1="173.2,20.4895960832313"
-                    Point2="177.2,20.4895960832313"
-                    Point3="177.2,24.4895960832313" />
+                    Point1="171.2,20.4895960832313"
+                    Point2="175.2,20.4895960832313"
+                    Point3="175.2,24.4895960832313" />
                   <mssgle:LineSegment
-                    End="177.2,52.5" />
+                    End="175.2,52.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-14.7626953125,25.4895960832313,206.725390625,12.2490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Criação da Dimensão Tempo.Paths[Nova Saída]"
-          TopLeft="255.3,148.7">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-170.2,60"
-              Start="0,0"
-              End="-170.2,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.4895960832313" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.4895960832313"
-                    Point2="0,20.4895960832313"
-                    Point3="-4,20.4895960832313" />
-                  <mssgle:LineSegment
-                    End="-166.2,20.4895960832313" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-166.2,20.4895960832313"
-                    Point2="-170.2,20.4895960832313"
-                    Point3="-170.2,24.4895960832313" />
-                  <mssgle:LineSegment
-                    End="-170.2,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-110.093359375,25.4895960832313,49.98671875,10.3349609375"
+              BoundingBox="-15.7626953125,25.4895960832313,206.725390625,12.2490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -18969,8 +19111,20 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
     &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Execução do Script do Tempo.Saídas[Saída de Origem OLE DB].Colunas[Cod_Semestre_Ano]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Cod_Semestre_Ano&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
       &lt;IdentificationString&gt;Execução do Script do Tempo.Saídas[Saída de Origem OLE DB].Colunas[Cod_Trimestre]&lt;/IdentificationString&gt;
       &lt;ColumnName&gt;Cod_Trimestre&lt;/ColumnName&gt;
+      &lt;KeyType&gt;None&lt;/KeyType&gt;
+      &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
+    &lt;/InputColumnToDBColumn&gt;
+    &lt;InputColumnToDBColumn&gt;
+      &lt;IdentificationString&gt;Execução do Script do Tempo.Saídas[Saída de Origem OLE DB].Colunas[Cod_Trimestre_Ano]&lt;/IdentificationString&gt;
+      &lt;ColumnName&gt;Cod_Trimestre_Ano&lt;/ColumnName&gt;
       &lt;KeyType&gt;None&lt;/KeyType&gt;
       &lt;ChangeType&gt;ChangingAttribute&lt;/ChangeType&gt;
     &lt;/InputColumnToDBColumn&gt;
