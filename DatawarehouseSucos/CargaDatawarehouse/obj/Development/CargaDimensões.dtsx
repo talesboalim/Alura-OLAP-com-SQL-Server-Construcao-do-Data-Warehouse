@@ -11,8 +11,8 @@
   DTS:LocaleID="1046"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="36"
-  DTS:VersionGUID="{600905B9-6ABA-4CF0-9146-D3A72298CDEC}">
+  DTS:VersionBuild="37"
+  DTS:VersionGUID="{23771008-55E2-4726-95F6-241B818056BD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -124,7 +124,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADbqiBQOOTghnpPvZxjl//C3XW8UFZU/0Eo0X4p0CgtMwAAAAAOgAAAAAIAACAAAADcNd2NJIDFOxqwo6VFMvm6YrRL6H08zY8I/Pju+kBcDBAAAADV0YSo0MOuX3p/3jgB/IgeQAAAANKrQnvxaYoVNN+afg/jKyn8Wi6qkHhSJo0oNoz9t5WVJp580eT70CFCAwPKKmiCKVO6pqIKGydCYkqUa+fYpTw</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADB5zjX8FfvHF4UhHMtV9ioga/lM0cxV2NhHxprLZr3uAAAAAAOgAAAAAIAACAAAAAzKLaIkdlT96QT5VKoPdlVxWI+YjjSQoKWxpnoFe88cxAAAADOeUp6+GPEpxjqjNs5+Nk4QAAAAN/1ZrVcrmPBFVLZeUzwnYN2VtNLrIefYDPWZGfwXBtVsIeUpvs9hPBpyt2UTSIX8E7S0hRk5z/o2C0gyhVrStQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -139,7 +139,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAv194rgEGv1TWy1daO6Cc628AeYVTcfkrGSjhavRIUWwAAAAAOgAAAAAIAACAAAACndg85biTLOHkeUnXZX/+XaLNvhZAzBZbVxgSOuQvPkhAAAABtH8pKa4sXyTvPMo2jVBhZQAAAABYLWmO/JzlXn9xXdMoIQOEi8Vdck5PJDCDrPgxgyhog8eiuaSzpRQX57M1rYZumDXjDwvm0VXeFg6wQlu5WXN0</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB7oEkpKPYiP/JTV3shHdAlStOZHhMmfJ9fK7toJmsGmAAAAAAOgAAAAAIAACAAAABfiNxLkW7DYHl1x6dpxjDamlBEh/UFi/33D3Ze1gaTuBAAAABEYA7u7glTiC8DAEXXaeSwQAAAAKNktCvhIVp+hBV7F4KG8ySg5muwNwbnmRguBuuE5RlbinFr/u24TWIs65bM5uX46JOpK5IAOO10wg/uhiBzx5A</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -154,7 +154,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACq+IY89VYqYVbdxZIjA8LBhqK0DC1p+DwAYaYVTCwQ/gAAAAAOgAAAAAIAACAAAACSpET7QaALzAfgkpg5d7MsLtMC/yYa+GKrnzge6GWcehAAAAAXRhK5wO6lXKZkKcudMUQPQAAAAOZD6DDbZZI2eRyGa9GD8g35H6C7sLKARsCJw48PS14DK4rY5llmhq+EyKWMOux+QyaLQAcjjKf9dxkkl5XnZ1E</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAhcbC/r42YHOS905R69REyCKy26VhA7AoU3uN6JzjzJgAAAAAOgAAAAAIAACAAAABFeF2xsRDFQ0zfLxXSHjZYu19TwIq2fyJ/ga0AvcEk2hAAAABQzLhI23T/FWHajeZDjK1IQAAAAFrp9EvsN2ZGac12EBYiEo+9RE7LzXzAH36MZUXwzZ1thokviVLJ82aoWM+wedgyRvbWmLY8Lh6wB7NcBOcsJwc</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -169,7 +169,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB+aeRKswB17YvYZ5ewBO54/X5/EFP4mqpO8Gc/E+ukLQAAAAAOgAAAAAIAACAAAAD7fdcI3uyu3Hl2nYHQ3K2W+eFJGqE2db/IU6KWW44pVxAAAAAc5Chjlcj0PnCAR2OM9jUNQAAAAM45giZQEEELbN06rZHSksIBdzQVZRjwRy4YSAjVb4DT4CQNP38Ao0UkT1mQeVqG2sOdMtCtAAZ/Lj2lc+19vaM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAXEzAxz9YvLO/zQ1b1A4EUP4fV3DGsrD0uL3uKfDdPIQAAAAAOgAAAAAIAACAAAACZhF6MBTpt/M9CxOLpTBtU6bMrrxLKYQi9jrYM9/yDghAAAAA17bNOjF7bDg/JPCPgp6wNQAAAAD1z8aWZU014eMXKrAjAeGdoUiGpTozA1w/ItpaF/oo0I6yNsFenX7YXVjZcV8ZP4reNSoqkKMEpIII7q11jSpI</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -184,7 +184,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAANwqO4yRwsxgLDCcZlY6uY90Kv37GXmJrO/l1n3ZElogAAAAAOgAAAAAIAACAAAADz8pPRT5KrHSe3LDsgB3xqlKbYwQXAsEVoiGuv3nWpPhAAAACjFA3Ul4M/X6/X14eKfCuMQAAAALT6UIGoRY+1JTEZvx1bHepwEylmGSv153Qm1/kZ/JyXhmKx8dVk/gIQuhyDhzeYof5lsj9HlJUQVyD+c3azRPQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdaaMcd95NUeCF3Lsd04kbAAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADgFwKxf/U77bKIqEIoD2peLwI3P46RnCx54+57OxUrgAAAAAAOgAAAAAIAACAAAAB2revcAEhBBFOKkBFVuYd1S2FkzTTl+3bEcuU1kzN1yxAAAAAAhDvDW7COTI7qoe46nKfcQAAAAKzRUsY5MeSSLWVyoZ9wJSmraPYlwopKiI7BEYJs9N7f9dDYwxoFZ/LUVtlBAc/h1oejvwzpgKs+CC7L4rV61WY</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -271,7 +271,6 @@
       DTS:refId="Package\Criação da Dimensão Cliente"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{3390A572-A59F-4795-9369-687D895F1270}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3026,7 +3025,6 @@
       DTS:refId="Package\Criação da Dimensão Fábrica"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{55F4D9D7-5F32-4E64-91C7-C990F5810025}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -3832,7 +3830,6 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab1 Nível 1"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{42705A8D-57F3-4FB3-8F53-8880C798AD51}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -4754,7 +4751,6 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab1 Nível 2"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{ABE7A4A2-E884-4824-85ED-E2BB275C545C}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -5809,7 +5805,6 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab1 Nível 3"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{6B9BC790-1830-41FE-A835-25574A0BE312}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -6864,7 +6859,6 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab2 Nível 1"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{68DA9B71-974F-4C3D-AED1-0C0EE2B8D145}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -7777,7 +7771,6 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Organizacional Tab2 Nível 2"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{5E417BA7-D9D8-43BC-94C8-4A88A89C5F36}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -8823,7 +8816,6 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Produto - Nível Categoria"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{EBD78A66-8035-47D8-8D85-B67421783125}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -9775,7 +9767,6 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Produto - Nível Marca"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{e3b93710-77fa-4f56-8e3f-a3f888868a44}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -10762,7 +10753,6 @@ SELECT'003' AS CODIGO, 'Fábrica do Nordeste' AS DESCRITOR</property>
       DTS:refId="Package\Criação da Dimensão Produto - Nível Produto"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{DA7CB3F4-B94B-4EC6-A34D-A827878CAD6A}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -14399,7 +14389,6 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
       DTS:refId="Package\Execução da rotina de Esquerda Direita Nível"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Tarefa Executar SQL"
-      DTS:Disabled="True"
       DTS:DTSID="{B33D61C1-5320-4CBD-B771-3D7C8BDFBD58}"
       DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
@@ -14417,7 +14406,6 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
       DTS:refId="Package\Transferência do Esquerda, Direta e Nível"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Tarefa Fluxo de Dados"
-      DTS:Disabled="True"
       DTS:DTSID="{AE2323E3-4609-498F-9E70-5A196C6804D6}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -18923,9 +18911,21 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
+          Size="162.4,41.6"
+          Id="Package\Criação da Dimensão Tempo\Insert Destination"
+          TopLeft="5.5000000000001,208.7" />
+        <NodeLayout
+          Size="171.2,41.6"
+          Id="Package\Criação da Dimensão Tempo\Comando OLE DB 1"
+          TopLeft="451.1,208.7" />
+        <NodeLayout
           Size="215.2,41.6"
           Id="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta"
           TopLeft="202.1,107.1" />
+        <NodeLayout
+          Size="161.6,41.6"
+          Id="Package\Criação da Dimensão Tempo\Comando OLE DB"
+          TopLeft="228.9,208.7" />
         <NodeLayout
           Size="241.6,41.6"
           Id="Package\Criação da Dimensão Tempo\Execução do Script do Tempo"
@@ -18949,53 +18949,11 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="162.4,41.6"
-          Id="Package\Criação da Dimensão Tempo\Insert Destination"
-          TopLeft="5.5000000000001,208.7" />
-        <EdgeLayout
-          Id="Package\Criação da Dimensão Tempo.Paths[Nova Saída]"
-          TopLeft="257.9,148.7">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-171.2,60"
-              Start="0,0"
-              End="-171.2,52.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,16.4895960832313" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,16.4895960832313"
-                    Point2="0,20.4895960832313"
-                    Point3="-4,20.4895960832313" />
-                  <mssgle:LineSegment
-                    End="-167.2,20.4895960832313" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-167.2,20.4895960832313"
-                    Point2="-171.2,20.4895960832313"
-                    Point3="-171.2,24.4895960832313" />
-                  <mssgle:LineSegment
-                    End="-171.2,52.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-110.593359375,25.4895960832313,49.98671875,10.3349609375"
+              BoundingBox="0,0,0,0"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="161.6,41.6"
-          Id="Package\Criação da Dimensão Tempo\Comando OLE DB"
-          TopLeft="228.9,208.7" />
         <EdgeLayout
           Id="Package\Criação da Dimensão Tempo.Paths[Saída de Atualizações de Membro Inferido]"
           TopLeft="309.7,148.7">
@@ -19020,10 +18978,6 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="171.2,41.6"
-          Id="Package\Criação da Dimensão Tempo\Comando OLE DB 1"
-          TopLeft="451.1,208.7" />
         <EdgeLayout
           Id="Package\Criação da Dimensão Tempo.Paths[Saída de Atualizações de Atributo de Alteração]"
           TopLeft="361.5,148.7">
@@ -19060,9 +19014,53 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Criação da Dimensão Tempo.Paths[Nova Saída]"
+          TopLeft="257.9,148.7">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-171.2,60"
+              Start="0,0"
+              End="-171.2,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,16.4895960832313" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,16.4895960832313"
+                    Point2="0,20.4895960832313"
+                    Point3="-4,20.4895960832313" />
+                  <mssgle:LineSegment
+                    End="-167.2,20.4895960832313" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-167.2,20.4895960832313"
+                    Point2="-171.2,20.4895960832313"
+                    Point3="-171.2,24.4895960832313" />
+                  <mssgle:LineSegment
+                    End="-171.2,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-110.593359375,25.4895960832313,49.98671875,10.3349609375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Criação da Dimensão Tempo\Execução do Script do Tempo">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Criação da Dimensão Tempo\Dimensão de Alteração Lenta">
     <Properties>
@@ -19200,14 +19198,6 @@ SELECT * FROM @DIMDATE order by Cod_Dia</property>
   &lt;DateVariable /&gt;
   &lt;EnableInferredSupport&gt;true&lt;/EnableInferredSupport&gt;
 &lt;/SCDWizardMetadata&gt;</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Criação da Dimensão Tempo\Execução do Script do Tempo">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
